@@ -1,0 +1,23 @@
+//library Calculator_AndreaPinilla.h
+
+#pragma once
+//Because we are using cout and cin
+#include <iostream>
+//Because we are using the type string
+#include <string>
+#include <sstream>
+#include <iomanip>
+#include <string.h>
+#include <cstdlib>
+#include <math.h>
+
+using namespace std; //For cout and cin
+//Prototypes
+void DisplayTitle(char title[50]);
+void DisplayMenu(int *ptrTitle);
+void ValiderChoice(string *ptrMyStr, int *ptrChoice);
+void CalculAddition(int *ptrNBAddition, float *ptrAddend, float *ptrSum, char *ptrYesNo, int *ptrChoice);
+void CalculDivision(float *ptrDivisor, float *ptrDivider, float *ptrQuot, char *ptrYesNo, int *ptrChoice);
+void CalculSubstraction(float *ptrMinuend, float *ptrSubstra, float *ptrDiffer, char *ptrYesNo, int *ptrChoice);
+void CalculMultiplication(int *ptrNBMulti, float *ptrMulti, float *ptrProduct, char *ptrYesNo, int *ptrChoice);
+void Quit(char *ptrYesNo, int *ptrChoice);
