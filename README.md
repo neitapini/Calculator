@@ -1,5 +1,5 @@
 # Calculator
-Final project Structure C#
+Final project Structure C++
 
 //Because I am using my own library with functions
 #include "Calculator_AndreaPinilla.h"
